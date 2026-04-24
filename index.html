@@ -955,8 +955,7 @@ function submitForm(){
   btn.textContent='Sending...';
   btn.disabled=true;
   btn.style.background='#6b7280';
-
-  fetch("https://gtax-server.onrender.com/send",{
+  fetch("https://gtax-server-jz9i.onrender.com/send",{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body:JSON.stringify({
